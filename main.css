@@ -8,6 +8,7 @@
     text-decoration: none;
 }
 header{
+    width:100%;
     background-color: rgba(0, 0, 0, 0.815);
     padding: 10px;
     text-align: center;
@@ -15,12 +16,58 @@ header{
 }
 
 header .nav a{
+    
     color:rgba(240, 255, 255, 0.664);
-    font-size: 75%;
+    font-size: 70%;
     font-weight: 10;
-    margin:10px;
+    margin:8px;
     padding: 10px;   
 }
 header .nav a:hover{
     color: aliceblue;
 }
+
+.section1{
+ margin: 10px;
+ width: 100%;
+ }
+ .logo{
+     font-size: 20px;
+     font-weight: 500;
+     margin-left: 220px;
+     margin-right: 490px;
+ }
+ section a {
+     color: rgba(0, 0, 0, 0.781);
+     font-size:12px ;
+     margin-left: 15px;
+     margin-right:15px;
+
+ }
+section a:hover{
+     color: blue;
+ }
+  .button{
+  
+        background-color: rgb(56, 56, 245);
+        border: none;
+        color: rgba(0, 0, 0, 0.678);
+        padding: 5px 15px;
+        text-align: center;
+        color: azure;
+        display: inline-block;
+        font-size: 12px;
+        margin: 2px 1px;
+        cursor: pointer;
+       border-radius: 20px;
+      }
+    .button:hover{
+        color: white;
+        background-color: blue;
+    }
+
+ 
+ hr{
+     border-color:0.5px rgba(128, 128, 128, 0.507);
+ }
+
