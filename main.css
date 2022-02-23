@@ -1,18 +1,24 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
 
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family:'Poppins', sans-serif ;
     text-decoration: none;
+   
 }
+/* navbar code */
 header{
+    display: flex;
+    justify-content: space-around;
     width:100%;
     background-color: rgba(0, 0, 0, 0.815);
     padding: 10px;
     text-align: center;
     margin: 10;
+    overflow: auto;
 }
 
 header .nav a{
@@ -23,6 +29,8 @@ header .nav a{
     margin:8px;
     padding: 10px;   
 }
+
+
 header .nav a:hover{
     color: aliceblue;
 }
@@ -30,14 +38,15 @@ header .nav a:hover{
 .section1{
  margin: 10px;
  width: 100%;
+ height: min-content;
  }
  .logo{
      font-size: 20px;
      font-weight: 500;
      margin-left: 220px;
-     margin-right: 490px;
+     margin-right: 400px;
  }
- /* section 1 code */
+ 
  section a {
      color: rgba(0, 0, 0, 0.781);
      font-size:12px ;
@@ -120,8 +129,9 @@ section a:hover{
      background-color:blue;
  }
 .section4{
-    padding-top: 70px;
-    width:100%
+    padding-top: 50px;
+    width:100%;
+    height:auto
 
 }
 img{
@@ -131,6 +141,58 @@ img{
 }
 
 
+/* media queries */
+@media(max-width:1100){
+    .header nav{
+        width: 100%;
+        padding:0 32px;
+
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .nav a {
+      float: none;
+      display: block;
+
+    }
+}
+   
+    @media screen and (max-width: 500px) {
+        .section1 .logo {
+          float: none;
+          display:block;
+        }
+      }
+      @media screen and (max-width: 500px) {
+        .section1  a {
+          float: none;
+          display:block;
+        }
+      }
+    
+  
+  @media screen and (max-width: 500px) {
+    .section2 h3 h1 p {
+      float: none;
+      display: block;
+    }
+  }
+
+  @media screen and (max-width: 500px) {
+    .section2 h3 h1 p {
+      float: none;
+      display: block;
+    }
+  }
+  @media screen and (max-width: 500px) {
+    .section4 img{
+      width:100%;
+      height:auto;
+      
+      
+    }
+  }
 
 
  
